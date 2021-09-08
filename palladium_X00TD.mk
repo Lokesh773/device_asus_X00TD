@@ -32,3 +32,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Build fingerprint
 BUILD_FINGERPRINT := "asus/WW_X00TD/ASUS_X00T_2:9/QKQ1/17.2017.2012.438-20201203:user/release-keys"
 
+#Official
+PALLADIUM_BUILD_TYPE := OFFICIAL
+
+# Palladium Specific props
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.palladiumdevice.maintainer=Lokesh \
+  ro.palladiumdevice.battery=5000mAh \
+  ro.palladiumdevice.camera=13MP+5MP+8MP  \
+  ro.palladiumdevice.cpu=SD636 \
+  ro.palladiumdevice.display=5.99 \
+  ro.palladiumdevice.displaytype=FULLHD+  
